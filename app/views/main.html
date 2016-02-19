@@ -1,0 +1,11 @@
+<div>
+  <ul ng-if="values.length > 0" ng-repeat="v in values">
+    <li>
+      <h3 ng-click="openYoutube(v.snippet.resourceId.videoId)">
+        {{ v.snippet.title }}
+      </h3>
+      <p>{{ v.snippet.description }}</p>
+      <img ng-src="{{v.snippet.thumbnails.standard.url }}" alt="{{ v.snippet.title }}"/>
+    </li>
+  </ul>
+</div>

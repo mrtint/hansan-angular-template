@@ -1,0 +1,8 @@
+{
+  "title": "Hansan's AngularJS sample page",
+  "menu": {
+    "main" : "MAIN",
+    "about" : "ABOUT",
+    "greeting" : "GREETING"
+  }
+}
